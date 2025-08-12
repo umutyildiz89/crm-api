@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────
+# Node / Express backend .gitignore
+# ─────────────────────────────────────────────────────
+
+# Bağımlılıklar
+node_modules/
+
+# Ortam değişkenleri ve gizli dosyalar
+.env
+.env.*
+!.env.example
+
+# Loglar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Önbellek / çıktılar
+.dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# IDE ayarları
+.vscode/
+.idea/
